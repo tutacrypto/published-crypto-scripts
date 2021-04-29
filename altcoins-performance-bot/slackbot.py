@@ -29,7 +29,7 @@ class Slackbot(object):
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": ( f"{self.company}"
+                    "text": ( f"{self.company.to_markdown()}"
 
                      ),
                 },
